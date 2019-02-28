@@ -6,12 +6,12 @@
    <elementGuidId>e54c9ca7-b094-491b-9eb6-1b0c056815cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='code']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and contains(@placeholder, 'Code')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @name = 'code']</value>
+         <key>XPATH</key>
+         <value>//input[@name='code']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,15 +24,15 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>code</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Code</value>

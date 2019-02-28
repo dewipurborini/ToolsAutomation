@@ -6,12 +6,12 @@
    <elementGuidId>9b89b70c-3a5a-4e36-9975-e70c5ee90d6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='checkbox'])[6]</value>
+         <key>BASIC</key>
+         <value>(//input[@type='checkbox'])[5]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>(//mat-header-cell[contains(@role,'columnheader')])</value>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//mat-header-cell[contains(@role,'columnheader')])</value>
+      <value>(//input[@type='checkbox'])[5]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

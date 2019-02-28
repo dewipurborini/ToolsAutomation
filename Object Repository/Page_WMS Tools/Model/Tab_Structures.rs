@@ -6,12 +6,12 @@
    <elementGuidId>d6af774d-9d3f-40d3-8572-070b61c58474</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Structures')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[(text() = ' Structures ' or . = ' Structures ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Structures')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

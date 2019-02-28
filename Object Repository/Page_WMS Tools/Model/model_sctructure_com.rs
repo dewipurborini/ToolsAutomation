@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[(text() = 'COM' or . = 'COM')]</value>
+         <value>//li[(text() = 'Base' or . = 'Base')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>COM</value>
+      <value>Base</value>
    </webElementProperties>
 </WebElementEntity>

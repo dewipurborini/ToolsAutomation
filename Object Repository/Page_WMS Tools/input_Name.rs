@@ -6,18 +6,18 @@
    <elementGuidId>16d2b852-3537-491e-957a-5115276071d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='name']</value>
+         <key>BASIC</key>
+         <value>//input[contains(@placeholder, 'Name')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'name' and @placeholder = 'Name']</value>
+         <key>XPATH</key>
+         <value>//input[@name='name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +31,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -39,7 +39,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Name</value>

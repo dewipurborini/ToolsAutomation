@@ -6,12 +6,12 @@
    <elementGuidId>707964b6-88e8-43b5-8d42-2467a3f07048</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(contains(text(), 'Save') or contains(., 'Save'))]</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,7 +25,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Save</value>

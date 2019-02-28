@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_None--- EMPTY MODEL (NU</name>
+   <name>select_Reference</name>
    <tag></tag>
    <elementGuidId>ca10c4e2-6e64-4a30-b5ff-28798d8a86a4</elementGuidId>
    <selectorCollection>

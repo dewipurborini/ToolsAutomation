@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_StringIntegerBigDecimal</name>
+   <name>select_Type</name>
    <tag></tag>
    <elementGuidId>5272fa36-0416-4298-b882-f4bc9565ea1b</elementGuidId>
    <selectorCollection>

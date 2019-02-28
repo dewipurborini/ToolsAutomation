@@ -6,12 +6,12 @@
    <elementGuidId>79c7bf73-cb05-4986-b076-4a07ea2c8529</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <key>BASIC</key>
+         <value>//button[(contains(text(), 'OK') or contains(., 'OK'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = 'OK' or . = 'OK')]</value>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>OK</value>
