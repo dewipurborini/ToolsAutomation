@@ -6,12 +6,12 @@
    <elementGuidId>b6a876a6-890c-47d9-88e9-88b0a2c71707</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[2]/following::button[1]</value>
+         <key>BASIC</key>
+         <value>//button[(contains(text(), ' Add ') or contains(., ' Add '))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = ' Add ' or . = ' Add ')]</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[2]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,7 +25,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Add </value>

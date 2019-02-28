@@ -28,48 +28,73 @@ not_run: WebUI.click(findTestObject('Page_WMS Tools/Model/span_ModelSQLNoSQL'))
 
 WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
 
-//
+//String
 WebUI.setText(findTestObject('Page_WMS Tools/input_Code'), 'alphabet')
 
 WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'alphanumeric')
 
 WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
 
+//Integer
+WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
+
+WebUI.setText(findTestObject('Page_WMS Tools/input_Code'), 'angka')
+
+WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'angkaa')
+
+WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 'Integer', true)
+
+WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
+
+//Big Decimal
+WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
+
+WebUI.setText(findTestObject('Page_WMS Tools/input_Code'), 'bDecimal')
+
+WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'big desimal')
+
+WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 'BigDecimal', true)
+
+WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
+
+//boolean
+WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
+
+WebUI.setText(findTestObject('Page_WMS Tools/input_Code'), 'boo')
+
+WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'boolean isinya')
+
+WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 'Boolean', true)
+
+WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
+
+//timestamp
+
+WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
+
+WebUI.setText(findTestObject('Page_WMS Tools/input_Code'), 'ts')
+
+WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'timestamp isinya')
+
+WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 'Timestamp', true)
+
+WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
+
+//reference
+
+WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
+
+WebUI.setText(findTestObject('Page_WMS Tools/input_Code'), 'ref')
+
+WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'ref to bank')
+
+WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 'Reference', true)
+
+WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Reference'), 'Account_V_1_0', true)
+
+WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
 //
-not_run: WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/config/Page_WMS Tools/input__code'), 'angka')
-
-not_run: WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'angka')
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 
-    'Integer', true)
-
-not_run: WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
-
-//
-not_run: WebUI.click(findTestObject('Page_WMS Tools/Model/button_Add Attribute'))
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 
-    'BigDecimal', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 
-    'Boolean', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 
-    'Timestamp', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Type'), 
-    'Reference', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Page_WMS Tools/Model/select_Reference'), 
-    'Account_V_1_0', true)
-
-not_run: WebUI.setText(findTestObject('Page_WMS Tools/input_Code'), 'ref')
-
-not_run: WebUI.setText(findTestObject('Page_WMS Tools/Model/input_Description_name'), 'ref')
-
-not_run: WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
 
 WebUI.click(findTestObject('Page_WMS Tools/Model/Tab_Structures'))
 
@@ -87,9 +112,9 @@ WebUI.check(findTestObject('Page_WMS Tools/Model/checkbox_uniqueKey'))
 
 WebUI.click(findTestObject('Page_WMS Tools/button_OK'))
 
-not_run: WebUI.click(findTestObject('Page_WMS Tools/button_Save'))
+WebUI.click(findTestObject('Page_WMS Tools/button_Save'))
 
-not_run: WebUI.setText(findTestObject('Page_WMS Tools/Model/Input comment'), 'add model automated')
+WebUI.setText(findTestObject('Page_WMS Tools/Model/Input comment'), 'add model automated')
 
-not_run: WebUI.click(findTestObject('Page_WMS Tools/button_commentSave'))
+WebUI.click(findTestObject('Page_WMS Tools/button_commentSave'))
 

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox_primaryKey</name>
+   <name>button_add_service</name>
    <tag></tag>
-   <elementGuidId>ca29494b-a7cb-448e-aa68-8079f697a8af</elementGuidId>
+   <elementGuidId>6d610d37-20d6-4591-beef-318d20cf36ee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//input[@type='checkbox'])[12]</value>
+         <value>//button[(contains(text(), 'Add') or contains(., 'Add'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>checkbox</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>(//input[@type='checkbox'])[12]</value>
+      <value>Add</value>
    </webElementProperties>
 </WebElementEntity>

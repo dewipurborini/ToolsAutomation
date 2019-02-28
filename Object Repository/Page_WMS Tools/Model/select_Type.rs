@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//select[@id='control20']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'valueType' and (text() = 'StringIntegerBigDecimalBooleanTimestampReference' or . = 'StringIntegerBigDecimalBooleanTimestampReference')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +45,7 @@
       <value>form-control ng-touched ng-pristine ng-valid ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

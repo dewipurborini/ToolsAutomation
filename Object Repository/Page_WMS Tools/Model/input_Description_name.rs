@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@aria-describedby='control2Status']</value>
+         <value>(//input[contains(@maxlength,'40')])[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@aria-describedby='control2Status']</value>
+      <value>(//input[contains(@maxlength,'40')])[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//input[@type='checkbox'])[7]</value>
+         <value>(//input[@type='checkbox'])[13]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//input[@type='checkbox'])[7]</value>
+      <value>(//input[@type='checkbox'])[13]</value>
    </webElementProperties>
 </WebElementEntity>
