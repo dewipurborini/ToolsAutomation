@@ -18,16 +18,16 @@ WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Object Repository/ServiceGen/Page_WMS Tools/a_Service Generator'))
 
 WebUI.click(findTestObject('Object Repository/ServiceGen/Page_WMS Tools/a_Services'))
+WebUI.delay('3')
+WebUI.click(findTestObject('ServiceGen/Page_WMS Tools/button_add_service'))
 
-WebUI.click(findTestObject('Page_WMS Tools/button_Add'))
+WebUI.verifyElementPresent(findTestObject('ServiceGen/Page_WMS Tools/label_Create New Service'), 0)
 
-WebUI.click(findTestObject('ServiceGen/Page_WMS Tools/label_Create New Service'))
-
-WebUI.setText(findTestObject('ServiceGen/Page_WMS Tools/input_New Service Name'), 'automated')
+WebUI.setText(findTestObject('ServiceGen/Page_WMS Tools/input_New Service Name'), 'automatedService')
 
 WebUI.click(findTestObject('Object Repository/ServiceGen/Page_WMS Tools/button_Confirm'))
 
-WebUI.setText(findTestObject('ServiceGen/Page_WMS Tools/input_SearchService'), 'automated')
+WebUI.setText(findTestObject('ServiceGen/Page_WMS Tools/input_SearchService'), 'automatedService')
 
 WebUI.click(findTestObject('ServiceGen/Page_WMS Tools/link_View Service'))
 
